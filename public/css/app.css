@@ -1,0 +1,104 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 1.2em "Lato", sans-serif;
+    color: #555555;
+    font-weight: normal;
+    background-color: #9BBF68;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+fieldset {
+    border-style: none;
+}
+
+form {
+    padding: 10px 30px;
+}
+
+input, button {
+    width: 100%;
+    font-size: 1em;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+    margin-bottom: .5em;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+button {
+    background-color: #539160;
+    color: #FAFAFA;
+    padding: 15px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.container {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.icon-cloud {
+  text-align: center;
+  font-size: 5em;
+  padding: 10px 0 0 0;
+  color: #539160;
+}
+
+.icon-cloud p {
+  font-size: .255em;
+}
+
+.message {
+  padding: 10px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#login,
+#loggedin {
+    width: 100%;
+    background: #FFF;
+    border: 1px solid #ccc
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#loggedin {
+  padding-bottom: 10px;
+}
+
+#info,
+#error {
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#info {
+    color: #6495ed;
+}
+
+#error {
+    color: #ff69b4;
+}

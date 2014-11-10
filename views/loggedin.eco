@@ -1,0 +1,13 @@
+<div id="loggedin">
+    <div class="icon-cloud">
+      <i class="fa fa-leaf"></i>
+      <p>Green Login</p>
+    </div>
+    <p class="message">Olá, seja bem vindo(a) <br/><%- @user.name %></p>
+
+    <form method="post" action="/logout">
+      <button type="submit">
+        <i class="fa fa-times"></i>
+      </button>
+    </form>
+</div>

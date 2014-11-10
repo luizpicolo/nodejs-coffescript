@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= @title %> (Green Login)</title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css" type="text/css" charset="utf-8">
+</head>
+<body>
+  <div class="container">
+      <%- @body %>
+  </div>
+</body>
+</html>

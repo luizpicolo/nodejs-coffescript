@@ -1,0 +1,22 @@
+<div id="login">
+    <div class="icon-cloud">
+      <i class="fa fa-leaf"></i>
+      <p>Green Login</p>
+    </div>
+    <form method="post" action="/login">
+        <fieldset>
+            <% if @loggedOut: %>
+            <p id="info">Você foi logado(a) com sucesso!</p>
+            <% else if @error: %>
+            <p id="error">Usuário ou senha inválido!</p>
+            <% end %>
+
+            <input type="text" name="user[name]" placeholder="usuário"/>
+            <input type="password" name="user[password]" placeholder="senha"/>
+            <button type="submit">
+                <i class="fa fa-check"></i>
+            </button>
+        </fieldset>
+    </form>
+
+</div>
